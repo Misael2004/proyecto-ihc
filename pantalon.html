@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="zapatos.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- carrito -->
+  <div class="header">
+  
+  <nav class="navbar">
+        <div class="menu">
+            <a href="Index.html">Home</a>
+            <a href="T'shirt.html">T'Shirt</a>
+            <a href="pantalon.html">Pantalones</a>
+            <a href="zapatos.html">Zapatos</a>
+            <a href="sobreNosotros.html">Contact</a>
+             <button id="btnCarrito">🛒 Carrito</button>
+        </div>
+
+        </div>
+</div>
+
+<div id="panelCarrito" class="panel-carrito">
+  <h3>Tu carrito</h3>
+  <ul id="listaCarrito"></ul>
+
+  <h4 id="totalCarrito">Total: RD$ 0</h4>
+  <button id="btnComprar">Comprar ahora</button>
+  <div id="paypal-button-container"></div>
+</div>
+  <div class="productos">
+
+  <!-- Producto 1 -->
+  <div class="producto">
+      <img class="ropa" src="Imagenes/pantalon cargo N.jpg" alt="Ropa">
+    <h4>Pantalo Cargo</h4>
+    <p>RD$ 700</p>
+    <select name="" id="">
+        <option value="">Size</option>
+        <option value="">38</option>
+        <option value="">39</option>
+        <option value="">40</option>
+        <option value="">41</option>
+    </select>
+     <!-- link de icono de carrito -->
+   <!-- link de icono de carrito -->
+   <svg class="add-carrito" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4M6 15c0 .55.45 1 1 1h12c.46 0 .86-.31.97-.76l2-8c.07-.3 0-.62-.18-.86S21.31 6 21 6H8V3c0-.55-.45-1-1-1H2v2h4zm2-7h11.72l-1.5 6H8z"></path>
+</svg>
+
+    <div class="colores">
+       <button class="color"
+style="background: linear-gradient(45deg, rgb(72, 113, 152), rgb(255, 255, 255)), rgb(0, 0, 0);"
+onclick="cambiar(this,'cargo azul.jpg')">
+</button>
+      <button class="color"
+style="background: linear-gradient(45deg, rgb(104, 102, 102), rgb(157, 157, 157)), rgb(0, 0, 0);"
+onclick="cambiar(this,'cargo gris.jpg')">
+</button>
+ <button class="color"
+style="background: linear-gradient(45deg, rgb(0, 0, 0), rgb(6, 6, 6)), rgb(0, 0, 0);"
+onclick="cambiar(this,'pantalon cargo N.jpg')">
+
+</button>
+    </div>
+
+  </div>
+
+  <!-- Producto 2 -->
+  <div class="producto">
+      <img class="ropa" src="Imagenes/pantalon ajustado.jpg" alt="Ropa">
+    <h4>pantalon jean ajustado</h4>
+    <p>RD$ 800</p>
+    <select name="" id="">
+        <option value="">Size</option>
+        <option value="">39</option>
+        <option value="">40</option>
+        <option value="">41</option>
+        <option value="">42</option>
+    </select>
+     <!-- link de icono de carrito -->
+      <!-- link de icono de carrito -->
+   <svg class="add-carrito" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4M6 15c0 .55.45 1 1 1h12c.46 0 .86-.31.97-.76l2-8c.07-.3 0-.62-.18-.86S21.31 6 21 6H8V3c0-.55-.45-1-1-1H2v2h4zm2-7h11.72l-1.5 6H8z"></path>
+</svg>
+
+    <div class="colores">
+            <button class="color"
+style="background: linear-gradient(45deg, rgb(80, 127, 193), rgb(228, 222, 222)), rgb(0, 0, 0);"
+onclick="cambiar(this,'pantalon jean.jpg')">
+</button>
+      <button class="color" style="background:rgb(0, 0, 0)" onclick="cambiar(this,'pantalon jean N.jpg')"></button>
+      <button class="color" style="background:rgb(255, 255, 255)" onclick="cambiar(this,'pantalon ajustado.jpg')"></button>
+    </div>
+
+  </div>
+  <!-- Producto 2 -->
+  <div class="producto">
+      <img class="ropa" src="Imagenes/chrome.jpg" alt="Ropa">
+    <h4>Pantalon chrome heart</h4>
+    <p>RD$ 2,000</p>
+    <select name="" id="">
+        <option value="">Size</option>
+        <option value="">40</option>
+        <option value="">41</option>
+        <option value="">42</option>
+    </select>
+      <!-- link de icono de carrito -->
+   <svg class="add-carrito" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4M6 15c0 .55.45 1 1 1h12c.46 0 .86-.31.97-.76l2-8c.07-.3 0-.62-.18-.86S21.31 6 21 6H8V3c0-.55-.45-1-1-1H2v2h4zm2-7h11.72l-1.5 6H8z"></path>
+</svg>
+
+    <div class="colores">
+      <button class="color" style="background:#6896c1" onclick="cambiar(this,'chorme heart1.jpg')"></button>
+      <button class="color" style="background:rgb(0, 0, 0)" onclick="cambiar(this,'chrome heart2.jpg')"></button>
+      <button class="color" style="background:rgb(255, 255, 255)" onclick="cambiar(this,'chrome.jpg')"></button>
+    </div>
+  
+
+</div>
+<!-- Producto 2 -->
+  <div class="producto">
+      <img class="ropa" src="Imagenes/bermuda nike.jpg" alt="Ropa">
+    <h4>Bermuda nike</h4>
+    <p>RD$ 500</p>
+    <select name="" id="">
+        <option value="">Size</option>
+        <option value="">38</option>
+        <option value="">39</option>
+        <option value="">40</option>
+        <option value="">41</option>
+        
+    </select>
+     <!-- link de icono de carrito -->
+   <svg class="add-carrito" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4M6 15c0 .55.45 1 1 1h12c.46 0 .86-.31.97-.76l2-8c.07-.3 0-.62-.18-.86S21.31 6 21 6H8V3c0-.55-.45-1-1-1H2v2h4zm2-7h11.72l-1.5 6H8z"></path>
+</svg>
+
+    <div class="colores">
+      <button class="color"
+style="background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0)), rgb(0, 0, 0);"
+onclick="cambiar(this,'bermuda nike N.jpg')">
+</button>
+      <button class="color" style="background:#dbd0d0" onclick="cambiar(this,'bermuda nike.jpg')"></button>
+      
+    </div>
+
+  </div>
+  </div>
+
+<!-- Boton paypal -->
+ <script src="https://www.paypal.com/sdk/js?client-id=AdsQTfD_QOtUX7zyxTbH9t0P1bPU0xuoYRtMHHrr_VetlNTU6epySXVg8NpZye3aHW-ASrgyfEUPrDq4"></script>
+  <script src="Script.js"></script>
+</body>
+</html>

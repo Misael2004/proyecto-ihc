@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="zapatos.css">
+  <title>Document</title>
+</head>
+<body>
+  
+    </nav>
+  <!-- carrito -->
+  <div class="header">
+ 
+  <nav class="navbar">
+        <div class="menu">
+            <a href="Index.html">Home</a>
+            <a href="T'shirt.html">T'Shirt</a>
+            <a href="pantalon.html">Pantalones</a>
+            <a href="zapatos.html">Zapatos</a>
+            <a href="sobreNosotros.html">Contact</a>
+             <button id="btnCarrito">🛒 Carrito</button>
+        </div>
+
+        </div>
+</div>
+
+<div id="panelCarrito" class="panel-carrito">
+  <h3>Tu carrito</h3>
+  <ul id="listaCarrito"></ul>
+
+  <h4 id="totalCarrito">Total: RD$ 0</h4>
+  <button id="btnComprar">Comprar ahora</button>
+  <div id="paypal-button-container"></div>
+</div>
+  <div class="productos">
+
+  <!-- Producto 1 -->
+  <div class="producto">
+      <img class="ropa" src="Imagenes/Wondertu.jpg" alt="Ropa">
+    <h4>poloche Wondertu</h4>
+    <p>RD$ 1,200</p>
+    <select name="" id="">
+        <option value="">Size</option>
+        <option value="">XL</option>
+        <option value="">S</option>
+        <option value="">M</option>
+    </select>
+     <!-- link de icono de carrito -->
+   <!-- link de icono de carrito -->
+   <svg class="add-carrito" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4M6 15c0 .55.45 1 1 1h12c.46 0 .86-.31.97-.76l2-8c.07-.3 0-.62-.18-.86S21.31 6 21 6H8V3c0-.55-.45-1-1-1H2v2h4zm2-7h11.72l-1.5 6H8z"></path>
+</svg>
+
+    <div class="colores">
+      <button class="color" style="background:#000" onclick="cambiar(this,'Wondert2.jpg')"></button>
+      <button class="color" style="background:#131331" onclick="cambiar(this,'Wondertu 3.jpg')"></button>
+      <button class="color" style="background:beige" onclick="cambiar(this,'Wondertu.jpg')"></button>
+    </div>
+
+  </div>
+
+  <!-- Producto 2 -->
+  <div class="producto">
+      <img class="ropa" src="Imagenes/chicago.jpg" alt="Ropa">
+    <h4>poloche Chicago</h4>
+    <p>RD$ 1,200</p>
+    <select name="" id="">
+        <option value="">Size</option>
+        <option value="">XL</option>
+        <option value="">M</option>
+    </select>
+     <!-- link de icono de carrito -->
+      <!-- link de icono de carrito -->
+   <svg class="add-carrito" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4M6 15c0 .55.45 1 1 1h12c.46 0 .86-.31.97-.76l2-8c.07-.3 0-.62-.18-.86S21.31 6 21 6H8V3c0-.55-.45-1-1-1H2v2h4zm2-7h11.72l-1.5 6H8z"></path>
+</svg>
+
+    <div class="colores">
+      <button class="color" style="background:#2562c3" onclick="cambiar(this,'chicago 1.jpg')"></button>
+      <button class="color" style="background:rgb(164, 113, 164)" onclick="cambiar(this,'chicago 2.jpg')"></button>
+      <button class="color" style="background:purple" onclick="cambiar(this,'chicago.jpg')"></button>
+    </div>
+
+  </div>
+  <!-- Producto 2 -->
+  <div class="producto">
+      <img class="ropa" src="Imagenes/the real1.jpg" alt="Ropa">
+    <h4>poloche the real</h4>
+    <p>RD$ 700</p>
+    <select name="" id="">
+        <option value="">Size</option>
+        <option value="">XL</option>
+        <option value="">S</option>
+    </select>
+      <!-- link de icono de carrito -->
+   <svg class="add-carrito" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4M6 15c0 .55.45 1 1 1h12c.46 0 .86-.31.97-.76l2-8c.07-.3 0-.62-.18-.86S21.31 6 21 6H8V3c0-.55-.45-1-1-1H2v2h4zm2-7h11.72l-1.5 6H8z"></path>
+</svg>
+
+    <div class="colores">
+      <button class="color" style="background:#033e00" onclick="cambiar(this,'the real.jpg')"></button>
+      <button class="color" style="background:beige" onclick="cambiar(this,'the real1.jpg')"></button>
+    </div>
+  
+
+</div>
+<!-- Producto 2 -->
+  <div class="producto">
+      <img class="ropa" src="Imagenes/Wondertu.jpg" alt="Ropa">
+    <h4>poloche Wondertu</h4>
+    <p>RD$ 1,200</p>
+    <select name="" id="">
+        <option value="">Size</option>
+        <option value="">XL</option>
+        <option value="">S</option>
+        
+    </select>
+     <!-- link de icono de carrito -->
+   <svg class="add-carrito" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4M6 15c0 .55.45 1 1 1h12c.46 0 .86-.31.97-.76l2-8c.07-.3 0-.62-.18-.86S21.31 6 21 6H8V3c0-.55-.45-1-1-1H2v2h4zm2-7h11.72l-1.5 6H8z"></path>
+</svg>
+
+    <div class="colores">
+      <button class="color" style="background:#000" onclick="cambiar(this,'Wondert2.jpg')"></button>
+      <button class="color" style="background:#131331" onclick="cambiar(this,'Wondertu 3.jpg')"></button>
+      <button class="color" style="background:beige" onclick="cambiar(this,'Wondertu.jpg')"></button>
+     
+       
+      
+    </div>
+
+  </div>
+  </div>
+<!-- Boton paypal -->
+ <script src="https://www.paypal.com/sdk/js?client-id=AdsQTfD_QOtUX7zyxTbH9t0P1bPU0xuoYRtMHHrr_VetlNTU6epySXVg8NpZye3aHW-ASrgyfEUPrDq4"></script>
+  <script src="Script.js"></script>
+</body>
+</html>
